@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartScript : MonoBehaviour {
+public class measureDistanceScript : MonoBehaviour {
 
     void Start() {
         float distance = getDistanceBetweenTwoPoints(0 , 10, 20, 30);
